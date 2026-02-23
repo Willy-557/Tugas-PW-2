@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu {
+    position: relative;
+    max-width: 755px;
+    width: 100%;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    top: 50px;
+}
+
+.menu h1 a{
+    color: rgb(255, 5, 5);
+    text-decoration: none;
+}
+
+.menu-hewan {
+    z-index: 999;
+    position: fixed;
+    background-color: rgb(100, 101, 117);
+
+    padding : 30px;
+    border-radius: 10px;
+}
+
+.container div {
+    margin-bottom: 100px;
+}
+
+.singa img{
+    max-width: 800px;
+    width: 100%;
+}
+
+.singa {
+    position: relative;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aqua;
+    max-width: 800px;
+    width: 100%;
+
+    padding: 60px;
+}
+
+.harimau img{
+    max-width: 800px;
+    width: 100%;
+}
+
+.harimau {
+    position: relative;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aqua;
+    max-width: 800px;
+    width: 100%;
+
+    padding: 60px;
+}
+
+.paus img{
+    max-width: 800px;
+    width: 100%;
+}
+
+.paus {
+    position: relative;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aqua;
+    max-width: 800px;
+    width: 100%;
+
+    padding: 60px;
+}
+
+.kucing img{
+    max-width: 800px;
+    width: 100%;
+}
+
+.kucing {
+    position: relative;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aqua;
+    max-width: 800px;
+    width: 100%;
+
+    padding: 60px;
+}
+
+.anjing img{
+    max-width: 800px;
+    width: 100%;
+}
+
+.anjing {
+    position: relative;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: aqua;
+    max-width: 800px;
+    width: 100%;
+
+    padding: 60px;
+}
+
+/* .singa, .harimau, .paus, .kucing, .anjing {
+    scroll-margin-top: 200px; 
+} */
+
+.singa, .harimau, .paus, .kucing, .anjing {
+    border: 5px solid forestgreen;
+}
