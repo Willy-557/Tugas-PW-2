@@ -12,7 +12,7 @@
     margin-left: auto;
     margin-right: auto;
 
-    top: 50px;
+    top: 30px;
 }
 
 .menu h1 a{
@@ -30,7 +30,8 @@
 }
 
 .container div {
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    margin-top: 50px;
 }
 
 .container p {
@@ -128,7 +129,7 @@
 }
 
 /* .singa, .harimau, .paus, .kucing, .anjing {
-    scroll-margin-top: 200px; 
+    scroll-margin-top: 150px; 
 } */
 
 .singa, .harimau, .paus, .kucing, .anjing {
