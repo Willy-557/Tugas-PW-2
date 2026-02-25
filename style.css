@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: rgb(224, 216, 216)
+}
+
 .menu {
     position: relative;
     max-width: 755px;
@@ -13,11 +17,10 @@
     margin-right: auto;
 
     top: 30px;
-}
+    }
 
 .menu h1 a{
-    color: rgb(255, 5, 5);
-    text-decoration: none;
+    color: rgb(229, 224, 224);
 }
 
 .menu-hewan {
@@ -29,111 +32,71 @@
     border-radius: 10px;
 }
 
-.container div {
+.container {
+    position: relative;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+
+    max-width: 800px;
+    width: 100%;
+}
+
+.container div{
     margin-bottom: 70px;
     margin-top: 50px;
+
+    padding: 60px;
+    border-radius: 10px;
+
+    padding: 60px;
 }
 
 .container p {
+    color: white;
     font-size: 20px;
+
+    background-color: rgba(127, 121, 121, 0.614);
+    padding: 20px;
+
+    border-radius: 20px;
 }
 
-.singa img{
+.container img{
     max-width: 800px;
     width: 100%;
+    border-radius: 10px;
+    border: 5px dashed rgba(62, 59, 59, 0.614);
 }
 
-.singa {
-    position: relative;
-    background: none;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: aqua;
-    max-width: 800px;
-    width: 100%;
-
-    padding: 60px;
+.container h1{
+    color: rgb(47, 44, 42);
+    font-size: 50px;
 }
 
-.harimau img{
-    max-width: 800px;
-    width: 100%;
+#gambar-singa {
+    background-color: rgb(236, 219, 136);
+    border: 8px inset  rgb(178, 165, 103);
 }
 
-.harimau {
-    position: relative;
-    background: none;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: aqua;
-    max-width: 800px;
-    width: 100%;
-
-    padding: 60px;
+#gambar-harimau {
+    background-color: rgb(234, 183, 53);
+    border: 8px outset rgb(153, 120, 35);
 }
 
-.paus img{
-    max-width: 800px;
-    width: 100%;
+#gambar-paus {
+    background-color: rgb(29, 220, 197);
+    border: 8px ridge rgb(25, 147, 132);
 }
 
-.paus {
-    position: relative;
-    background: none;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: aqua;
-    max-width: 800px;
-    width: 100%;
-
-    padding: 60px;
+#gambar-kucing {
+    background-color: rgb(227, 164, 92);
+    border: 8px groove rgb(129, 93, 52);
 }
 
-.kucing img{
-    max-width: 800px;
-    width: 100%;
-}
-
-.kucing {
-    position: relative;
-    background: none;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: aqua;
-    max-width: 800px;
-    width: 100%;
-
-    padding: 60px;
-}
-
-.anjing img{
-    max-width: 800px;
-    width: 100%;
-}
-
-.anjing {
-    position: relative;
-    background: none;
-    margin-left: auto;
-    margin-right: auto;
-
-    background-color: aqua;
-    max-width: 800px;
-    width: 100%;
-
-    padding: 60px;
-}
-
-/* .singa, .harimau, .paus, .kucing, .anjing {
-    scroll-margin-top: 150px; 
-} */
-
-.singa, .harimau, .paus, .kucing, .anjing {
-    border: 5px solid forestgreen;
+#gambar-anjing {
+    background-color: rgb(212, 216, 133);
+    border: 8px dotted rgb(133, 135, 66);
 }
 
 .ads-1 {
